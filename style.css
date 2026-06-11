@@ -1,0 +1,21 @@
+:root{
+    --primary : #18191F;
+    --greenColor : #4cAF4F;
+}
+.blackColor{
+    color : var (--primary) !important;
+}
+.textgreen{
+    color: var(--greenColor);
+
+}
+.textgreen:hover{
+    color: var(--greenColor);
+}
+.bggreen{
+    background-color: var(--greenColor);
+    color:aliceblue;
+}
+.bggreen:hover{
+    background-color: var(--greenColor);
+}
