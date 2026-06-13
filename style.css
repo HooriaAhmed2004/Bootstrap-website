@@ -6,11 +6,13 @@
     color : var (--primary) !important;
 }
 .textgreen{
-    color: var(--greenColor);
+   color: #F5F7FA;
 
 }
 .textgreen:hover{
+   
     color: var(--greenColor);
+  
 }
 .bggreen{
     background-color: var(--greenColor);
@@ -18,4 +20,33 @@
 }
 .bggreen:hover{
     background-color: var(--greenColor);
+}
+
+.d-block{
+   width: 391px;
+height: 407px;
+opacity: 1;
+
+}
+
+.col-lg-6{
+      width: 657px;
+height: 276px;
+gap: 32px;
+opacity: 1;
+margin-top: 60px;
+}
+/* 
+.row flex{
+    width: 657px;
+height: 276px;
+gap: 32px;
+
+
+
+} */
+
+.btn{
+    background-color: var(--greenColor);
+
 }
