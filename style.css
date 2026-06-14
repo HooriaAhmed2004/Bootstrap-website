@@ -1,22 +1,25 @@
 :root{
     --primary : #18191F;
     --greenColor : #4cAF4F;
+    --color:#eee4e4;
 }
 .blackColor{
-    color : var (--primary) !important;
+    color : var (--primary);
 }
 .textgreen{
-   color: #F5F7FA;
+   color: var(--greenColor);
+
 
 }
 .textgreen:hover{
-   
-    color: var(--greenColor);
-  
+  background-color: var(--color);
+    
 }
+
 .bggreen{
     background-color: var(--greenColor);
-    color:aliceblue;
+    color: aliceblue;
+
 }
 .bggreen:hover{
     background-color: var(--greenColor);
@@ -29,6 +32,7 @@ opacity: 1;
 
 }
 
+
 .col-lg-6{
       width: 657px;
 height: 276px;
@@ -36,17 +40,23 @@ gap: 32px;
 opacity: 1;
 margin-top: 60px;
 }
-/* 
-.row flex{
-    width: 657px;
-height: 276px;
-gap: 32px;
 
 
-
-} */
 
 .btn{
     background-color: var(--greenColor);
 
+}
+
+.btn:hover{
+    background-color: var(--greenColor) ;
+}
+
+.lines{
+    font-size: 60px;
+}
+.colorgreen{
+    color: var(--greenColor);
+    font-size: 50px;
+    
 }
